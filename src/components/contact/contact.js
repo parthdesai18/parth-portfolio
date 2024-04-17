@@ -70,10 +70,10 @@ const Contact = () => {
             <img src={getInTouch} alt="Get in touch" height="500px" width="500px" className="imageContact" />
             <div className="contact">
                 <div>GET IN TOUCH</div>
-                <form ref={form} onSubmit={sendEmail}>
-                    <input value={input} type="text"  id="name" placeholder="NAME" onChange={inputChange} />
-                    <input value={email} type="email" id="email" placeholder="EMAIL" onChange={emailChange} />
-                    <textarea value={text} id="message" placeholder="MESSAGE" onChange={textChange} />
+                <form ref={form} onSubmit={sendEmail} className="formContact">
+                    <input value={input} type="text"  id="name" placeholder="NAME" name="user_name" onChange={inputChange} />
+                    <input value={email} type="email" id="email" placeholder="EMAIL" name="user_email" onChange={emailChange} />
+                    <textarea value={text} id="message" placeholder="MESSAGE" name="message" onChange={textChange} />
                     <button disabled={isDisable} type="submit" className={isDisable ? "buttonOff" : "buttonOn"}>Let's talk</button>
                 </form>
             </div>
