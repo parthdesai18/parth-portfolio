@@ -1,0 +1,47 @@
+.projectContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    height: 100%;
+}
+.projectContainer > h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.eyesP {
+    width: 400px;
+    height: 60%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 10px;
+    border-radius: 10em;
+    padding: 3px 0;
+}
+
+.pupilProject {
+    height: 90%;
+    width: 20%;
+    background-color: black;
+    color: black;
+    border-radius: 85%;
+}
+
+.displayY {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.capsuleHolder {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+

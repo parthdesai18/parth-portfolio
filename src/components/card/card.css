@@ -1,0 +1,63 @@
+.card {
+    border: 2px black solid;
+    position: absolute;
+    box-shadow: 8px 8px #888888;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.cardOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-radius: 40px 0 0 0;
+    transform: translateY(100%);
+    transition: .2s ease-in-out;
+    background-color: rgb(235, 168, 126);
+}
+
+.card:hover .cardOverlay {
+    transform: translateY(0);
+}
+.cardHeader {
+    font-size: 30px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transform: translateY(-100%);
+    transition: .2s ease-in-out;
+}
+
+.card:hover .cardHeader {
+    transform: translateY(0);
+}
+
+.cardBody {
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.cardImage {
+    width: 100%;
+    height: 100%;
+}
+
+.cardArc {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    z-index: 1;
+}
+.cardArc path {
+    fill: rgb(235, 168, 126);
+    d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+}

@@ -1,0 +1,25 @@
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+    position: fixed;
+    top:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myBar {
+    width: 1%;
+    height: 10px;
+    background-color: #074d70;
+}
+
+.percentage {
+    position: fixed;
+    top: 52%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}

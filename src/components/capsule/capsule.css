@@ -1,0 +1,43 @@
+.capsuleComponent {
+    border: rgb(232, 188, 160) solid 1px;
+    height: 400px;
+    width: 200px;
+    border-radius: 90px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    text-align: center;
+    z-index: 1;
+}
+.imageCapsule {
+    height: 400px;
+    width: 200px;
+    border-radius: 90px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.35;
+    object-fit: cover;
+}
+.imageCapsule:hover {
+    opacity: 1;
+}
+
+.capsuleComponent > div {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.textDivSpan {
+    color: rgb(211, 130, 79);
+}
+
+
+.capsuleComponent:hover > * {
+    color: #fff;
+    text-shadow: 0 0 20px #fff;
+}

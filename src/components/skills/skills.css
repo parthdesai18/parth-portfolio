@@ -1,0 +1,22 @@
+.skills {
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-weight: 700;
+}
+
+.iconSkill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconSkill:hover {
+    color: rgb(235, 168, 126);
+    box-shadow: 0 0 5px rgb(235, 168, 126);
+    text-shadow: 0 0 5px rgb(235, 168, 126);
+    cursor: pointer;
+    transform: scale(1.5);
+}

@@ -1,0 +1,113 @@
+.navBar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-right: 10em;
+    justify-content: space-around;
+    gap: 400px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(232, 188, 160);
+    z-index: 10;
+    
+    
+    a {
+        text-decoration: none;
+        color: #12343b
+    }
+}
+
+.navBar-home {
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: rgb(255, 255, 255, 1);
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to left, rgb(255, 255, 255, 1) 50%, rgb(12, 66, 84) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+/* .navBar-home:after {
+    bottom: 10;
+    content: "";
+    display: block;
+    height: 5px;
+    left: 20%;
+    position: absolute;
+    background: #0087ca;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+} */
+
+.navBar-home:hover {
+    background-position: left;
+    color: rgb(255, 255, 255, 1);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* .navBar-home:hover:after {
+    width: 60%;
+    left: 5;
+} */
+
+.navBar-others {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255, 1);
+}
+
+.resume {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: rgb(255, 255, 255, 1);
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to left, rgb(255, 255, 255, 1) 50%, rgb(12, 66, 84) 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+} 
+
+.resume:hover {
+    background-position: left;
+    color: rgb(255, 255, 255, 1);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.animation {
+    display: inline-block;
+    position: relative;
+}
+.animation:hover {
+    font-size: 22px;
+}
+
+.animation::after {
+    content: '';
+    position: absolute;
+    width: 90%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+
+.animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

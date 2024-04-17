@@ -1,0 +1,77 @@
+
+.contact {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 250px;
+    padding-bottom: 50px;
+
+    div {
+        font-size: 60px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        input {
+            background: inherit;
+            outline: 0;
+            border-width: 0 0 2px;
+            border-color: rgb(235, 168, 126);
+        }
+
+        input:focus {
+            border-color: rgb(241, 95, 4);
+            border-width: 0 0 4px;
+        }
+
+        textarea {
+            background: inherit;
+            outline: 0;
+            border-width: 0 0 2px;
+            border-color: rgb(235, 168, 126);
+            max-height: 150px;
+            display: block;
+            overflow: hidden;
+        }
+        textarea:focus {
+            border-color: rgb(241, 95, 4);
+            border-width: 0 0 4px;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.imageContact {
+    margin-top: 120px;
+    margin-left: 100px;
+    border-radius: 40%;
+}
+
+.buttonOff {
+    border: 1px solid rgb(235, 168, 126);
+    background: rgb(235, 168, 126);
+    opacity: 0.3;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.buttonOn {
+    border: 1px solid rgb(235, 168, 126);
+    background: rgb(235, 168, 126);
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    opacity: 1;
+}
