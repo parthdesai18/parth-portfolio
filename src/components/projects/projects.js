@@ -9,6 +9,7 @@ import cyber from "../../images/cyber.jpg";
 import pharmacy from "../../images/pharmacy.jpg";
 import legal from "../../images/legal.jpg";
 import travel from "../../images/travel.jpg";
+import hap from "../../images/hap.jpg"
 import { LexisFeatures } from "../../write-ups/lexis/lexisFeatures";
 import { LexisStack } from "../../write-ups/lexis/lexisStack";
 import { FrontierFeatures } from "../../write-ups/frontier/frontierFeatures";
@@ -18,6 +19,9 @@ import { SequretekStack } from "../../write-ups/sequretek/sequretekStack";
 import { SequretekFeatures } from "../../write-ups/sequretek/sequretekFeatures";
 import { CapstoneFeatures } from "../../write-ups/capstone/capstoneFeatues";
 import { CapstoneStack } from "../../write-ups/capstone/capstoneStack";
+import { hapDescription } from "../../write-ups/hap/hapDescription";
+import { HapFeatures } from "../../write-ups/hap/hapFeatues";
+import { HAPStack } from "../../write-ups/hap/hapStack";
 
 const Projects = () => {
     let xCoordinate = 0;
@@ -57,6 +61,12 @@ const Projects = () => {
                 <h2>JECTS</h2>
             </div>
             <div className="capsuleHolder">
+                  <Capsule header="HAP (Princess Cruises)" text="Legacy to cloud migration & new react based app"
+                    image={hap}
+                    description={hapDescription}
+                    features={<HapFeatures />}
+                    techStack={<HAPStack />}
+                />
                 <Capsule header="LexisNexis" text="Microsoft based react app"
                     image={legal}
                     description={lexisDescription}

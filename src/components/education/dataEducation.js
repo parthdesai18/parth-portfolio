@@ -35,23 +35,28 @@ export const dataEducation = [
         date: 'Jul 2019',
     },
     {
-        headerText: 'Developer',
-        description: 'Got into website development and found my interest.',
+        headerText: 'Developer and product consultant',
+        description: 'Started my development journey into website development and worked on mobile development with react-native.',
         date: 'Sep 2019',
     },
     {
-        headerText: 'Pandemic Developer',
-        description: 'Pandemic changed things and I got a gig with FrontierBPM as a developer.',
+        headerText: 'Software developer',
+        description: 'Deepened my knowledge into full stack development, learning about backend nodeJs apis and working in full stack capacity.',
         date: 'Mar 2021',
     },
     {
-        headerText: 'Remote developer',
-        description: 'Next project was with LexisNexis, details in projects section.',
+        headerText: 'Software developer',
+        description: 'After completing my work with FrontierBPM, my next project was with LexisNexis, complete details mentioned in projects section.',
         date: 'Mar 2022',
     },
     {
-        headerText: 'Open to work',
-        description: 'Project over, open to work.',
-        date: 'Apr 2024',
+        headerText: 'Software developer',
+        description: 'Completing the LexisNexis project in 2 years, new opportunity presented with Princess cruises for converting their legacy application to a react based SPA.',
+        date: 'Jul 2025',
+    },
+    {
+        headerText: 'Software developer',
+        description: 'Successful deployment of 2 applications and making both the applications live in production, now open to new challenges.',
+        date: 'Oct 2025',
     },
 ]
